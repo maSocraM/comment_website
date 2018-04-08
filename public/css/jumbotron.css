@@ -1,0 +1,82 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.navbar-jobtest {
+  background-color: #BE3039;
+  border-color: #EC1F27;
+}
+
+.navbar-jobtest-inverse {
+  background-color: #959595;
+  border-color: #464646;
+}
+
+.jumbotron-normal {
+    background-color: #FBE3E3;
+    color: #000;
+}
+
+.jumbotron-inverse {
+    background-color: #464646;
+    color: #FFF;
+}
+
+.jumbotron-footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.jumbotron-footer-normal {
+    background-color: #464646;
+    color: #FFF;
+}
+
+.jumbotron-footer-inverse {
+    background-color: #BE3039;
+    color: #FFF;
+}
+
+.switcher {
+    list-style: none;
+    padding: 15px 0 0 0;
+    margin-bottom: 0;
+}
+
+.switcher li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 30px;
+    border: 1px solid #FBE3E3;
+    cursor: pointer;
+}
+
+#btnColor1 {
+    background: #ED1C24;
+}
+
+#btnColor2 {
+    background: #959595;
+}
+
+.chart-container {
+    position: relative;
+}
+
+/*
+~~ CORES ~~
+Vermelhos
+muito mais claro: #FBE3E3
+mais claro: #E44545
+claro: #ED1C24
+escuro: #BE131A
+
+Cinzas
+claro: #959595
+escuro: #636363
+mais escuro: #464646
+*/
